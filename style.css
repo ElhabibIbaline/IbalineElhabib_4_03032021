@@ -677,8 +677,9 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px; /* modifié*/
 }
+
 
 .tight-width-whitespace {
     max-width: 600px;
@@ -727,7 +728,10 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+   /* color: #333333!important;*/
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
 }
 
 .icons {
