@@ -6,7 +6,31 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+/*elements ajoutés--------------------------------------------------------------start*/
+.form-group{
+    margin: 20px 0;
+}
+.form-control{
+   padding: 10px 0;
+}
+.col-sm-4{
+ font-size: 16px;
+ font-weight: 600;
+ margin-bottom: 15px;
+}
+.col-sm-4 li{
+    padding: 7px 0;
+    text-decoration: none;
+ /*   list-style-type: none;*/
+ font-size: 16px;
+ font-weight: 600;
+}
+.text-center{
+    font-size: 20px;
+    font-weight: bold;
+}
 
+/*elements ajoutés-------------------------------------------------------------end*/
 a,
 button {
     transition: all .3s ease-in-out;
@@ -646,7 +670,7 @@ h4,
 h5,
 h6,
 p,
-label,
+label,/* important!------------------------------------------------------*/
 .btn,
 a {
     font-family: "helvetica";
@@ -677,13 +701,13 @@ a {
 }
 
 p {
-    font-size: 16px; /* modifié*/
+    font-size: 16px; /* modifié----------------------------------------------------*/
 }
 
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto auto auto auto;/*repitition---------------------------------------------------------*/
 }
 
 .h1 {
@@ -727,13 +751,6 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
-   /* color: #333333!important;*/
-    font-size: 20px;
-    font-weight: 600;
-    color:black;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -757,7 +774,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+  /*  background-color: rgba(165, 147, 99, 0.7);*/
+   background-color: rgba(155, 125, 41, .9);/*modifiée-----------------------------------------------------------*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -824,7 +842,7 @@ h4 {
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
-
+/*img!!-------------------------------------------------------------------------------------------------------*/
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
