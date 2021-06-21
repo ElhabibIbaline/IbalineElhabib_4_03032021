@@ -7,12 +7,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 /*elements ajoutés--------------------------------------------------------------start*/
-.form-group{
+/*.form-group{
     margin: 20px 0;
 }
 .form-control{
    padding: 10px 0;
-}
+}*/
 .col-sm-4{
  font-size: 16px;
  font-weight: 600;
@@ -844,7 +844,7 @@ h1 {
 }
 /*img!!-------------------------------------------------------------------------------------------------------*/
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
