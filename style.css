@@ -7,7 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 /*elements ajoutés--------------------------------------------------------------start*/
-/*.form-group{
+.form-group{
     margin: 20px 0;
 }
 .form-control{
@@ -24,7 +24,7 @@ body {
  list-style-type: none;
  font-size: 16px;
  font-weight: 600;
-}*/
+}
 .text-center{
     font-size: 18px;
 
@@ -344,6 +344,8 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .nav > li {
