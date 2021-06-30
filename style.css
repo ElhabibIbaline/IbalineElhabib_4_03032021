@@ -8,30 +8,14 @@ body {
 }
 
 /*elements ajoutés--------------------------------------------------------------start*/
-/*
-.form-group{
-    margin: 20px 0;
-}
-.form-control{
-   padding: 10px 0;
-}
-.col-sm-4{
- font-size: 16px;
- font-weight: 600;
- margin-bottom: 15px;
-}
-.col-sm-4 li{
-    padding: 7px 0;
-    text-decoration: none;
- list-style-type: none;
- font-size: 16px;
- font-weight: 600;
+
+.col-md-offset-2 p{
+    font-size: 16px;
 }
 .text-center{
     font-size: 18px;
-}*/
+}
 /*elements ajoutés-------------------------------------------------------------end*/
-
 a,
 button {
     transition: all .3s ease-in-out;
