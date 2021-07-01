@@ -9,11 +9,14 @@ body {
 
 /*elements ajoutés--------------------------------------------------------------start*/
 
-.col-md-offset-2 p{
+.text-center, .col-md-offset-2 p, .mg-md{
     font-size: 16px;
+    color: #364577;
 }
-.text-center{
-    font-size: 18px;
+.row h4{
+  font-size: 20px;
+  font-weight: bold;
+    color: white!important;
 }
 /*elements ajoutés-------------------------------------------------------------end*/
 a,
