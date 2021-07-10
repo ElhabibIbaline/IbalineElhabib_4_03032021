@@ -7,18 +7,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-/*elements ajoutés--------------------------------------------------------------start*/
 
-.text-center, .col-md-offset-2 p, .mg-md{
-    font-size: 16px;
-    color: #364577;
-}
-.row h4{
-  font-size: 20px;
-  font-weight: bold;
-    color: white!important;
-}
-/*elements ajoutés-------------------------------------------------------------end*/
 a,
 button {
     transition: all .3s ease-in-out;
@@ -1054,3 +1043,73 @@ h1 {
         text-align: center;
     }
 }
+
+/*elements ajoutés--------------------------------------------------------------start*/
+
+.text-center{
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000!important;
+}
+.col-md-offset-2 p, .mg-md{
+    font-size: 16px;
+    color: #f5f5f5;
+   
+}
+.row h4{
+  font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #eb950c;
+   padding:20px;
+}
+#bloc-2-services > div > div.row.voffset-lg.voffset > div > p{
+    color: rgb(0, 0, 0)!important;  
+}
+#bloc-3-what-i-do > div > div{
+    background-color: #eb950c;
+     font-size: 20px;
+}
+h1{
+     background-color: #eb950c;
+     padding: 20px;
+     border-radius: 5px;
+}
+#bloc-1-hero > div > div{
+    padding: 20px 0 20px 0;
+}
+#cta-hero{
+     background-color:white;
+     border-radius: 10px;
+}
+#bloc-8 > div > div > div > p{
+    padding: 20px;
+}
+#form_1 > button{
+    background-color: #eb950c;
+    color: black;
+}
+#bloc-7 > div > div > div:nth-child(1){
+    font-size: 20px;
+    color:#000000!important;
+}
+.cta-hero, .col-sm-6{
+  color:#000000!important;  
+  font-size: 20px;
+}
+.col-sm-6{
+  color:#000000!important;  
+  font-size: 20px !important;
+}
+#bloc-7 > div > div > div:nth-child(2) > p{
+     color:#000000!important;  
+  font-size: 20px;
+}
+#bloc-6 > div > div > section > h1{
+    color:#000000!important;  
+  font-size: 20px;
+  background-color: #eb950c;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+/*elements ajoutés-------------------------------------------------------------end*/
