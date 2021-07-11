@@ -1069,15 +1069,16 @@ h1 {
 	margin-bottom: 30px;
 }
 #cta-hero {
-	color: #000000 !important;
+	color: white !important;
 	font-weight: normal;
 	font-size: 2.5rem;
-	background-color: white;
-	border-radius: 7px;
+	background-color: #004079;
+	border-radius: 10px;
+	border: 2px solid #004079;
 }
 
 #bloc-2-services > div > div:nth-child(1) > div > h2 {
-	color: #0307f1 !important;
+	color: #004079 !important;
 	font-weight: normal;
 	text-align: justify !important;
 }
@@ -1101,33 +1102,38 @@ h1 {
 	font-weight: normal;
 	border-left: 2px solid gray;
 }
-#bloc-3-what-i-do > div > div > article > h2,
+#bloc-3-what-i-do > div > div > article > h3,
 #bloc-3-what-i-do > div > div > article > p {
 	text-align: left !important;
 	font-size: 1.7rem;
 	font-weight: normal;
+	line-height: 25px;
+	text-transform: none;
 }
 #bloc-3-what-i-do > div > div > article > p > a {
 	font-size: 2rem;
 	font-weight: normal;
-	background-color: black;
-	padding: 1rem;
-	border-radius: 7px;
+	background-color: #004079;
+	padding: 1.5rem;
+	border-radius: 10px;
 	text-decoration: none !important;
 }
 #bloc-1-hero > div > div {
 	padding: 20px 0 20px 0;
 }
 
-#bloc-4-portfolio > div > div:nth-child(1) > div > h2 {
-	color: #0307f1 !important;
+#bloc-4-portfolio > div > div:nth-child(1) > div > h3 {
+	color: #004079 !important;
+	font-size: 2rem;
+	text-transform: none;
+	font-weight: normal;
 }
-#bloc-4-portfolio > div > div > article h3 {
-	font-size: 1.7rem;
+#bloc-4-portfolio > div > div > article h4 {
+	font-size: 1.8rem;
 	text-align: left;
 	color: black !important;
 	line-height: 25px;
-	font-weight: bold;
+	font-weight: 600;
 }
 #bloc-4-portfolio > div > div > article > p {
 	font-size: 1.7rem;
@@ -1136,11 +1142,14 @@ h1 {
 	font-weight: normal;
 }
 
-#bloc-5-cta > div > div > h4 {
+#bloc-5-cta > div > div > h5 {
 	color: rgba(255, 255, 255, 1) !important;
 	font-size: 20px;
 }
-
+#bloc-5-cta > div > div > div > a {
+	background-color: #004079;
+	border: 2px solid #004079;
+}
 #bloc-2-services > div > div.row.voffset-lg.voffset > div > p {
 	color: rgb(0, 0, 0) !important;
 }
