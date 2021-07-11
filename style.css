@@ -855,15 +855,15 @@ h1 {
 	}
 }
 
-@media only screen and (min-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-	/*@media only screen and (min-device-width: 768px)*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	/*@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) */
 	.b-parallax {
 		background-attachment: scroll;
 	}
 }
 
-@media only screen and (min-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-	/*@media only screen and (min-device-width: 1024px)*/
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
+	/*@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)*/
 	.b-parallax {
 		background-attachment: scroll;
 	}
@@ -1144,7 +1144,7 @@ h1 {
 #bloc-2-services > div > div.row.voffset-lg.voffset > div > p {
 	color: rgb(0, 0, 0) !important;
 }
-*/ #bloc-3-what-i-do > div > div {
+#bloc-3-what-i-do > div > div {
 	background-color: #eb950c;
 	font-size: 20px;
 }
