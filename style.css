@@ -622,8 +622,7 @@ a[data-lightbox]:hover img {
 	z-index: 1;
 	opacity: 0.4;
 }
-
-.next-lightbox {
+*/ .next-lightbox {
 	padding: 6px 8px 1px 13px;
 	right: 25px;
 }
@@ -1161,26 +1160,31 @@ h1 {
 	padding: 1rem;
 	font-size: 2rem;
 	color: #200 !important;
+			
 }
-#bloc-8 > div > div > div > div > div:nth-child(3) > div > a > i{
+#bloc-8 > div > div > div > div {
+	margin-bottom: 1.2rem;
+	}
+#bloc-8 > div > div > div > div > div:nth-child(3) > div > a > i {
 	margin: 0 2rem 0 -2rem;
 }
 
-#bloc-4-portfolio div, #bloc-4-portfolio > div > div:nth-child(3) > article:nth-child(1){
+#bloc-4-portfolio div,
+#bloc-4-portfolio > div > div:nth-child(3) > article:nth-child(1) {
 	max-width: 90%;
 }
-#bloc-4-portfolio > div > div:nth-child(3)  a > img{
-	width: 100%;
+
+#bloc-4-portfolio > div > div:nth-child(3) > article > a > img{
+width: 100%;	
 }
-#bloc-4-portfolio > div > div:nth-child(1) > div > h3{
-	width:90%;
+
+#bloc-4-portfolio > div > div:nth-child(1) > div > h3 {
+	width: 90%;
 	text-align: left;
-		margin-left: 3rem;
-		padding-left: 1.5rem;
+	margin-left: 3rem;
+	padding-left: 1.5rem;
 }
-#lightbox-modal > div{
-	animation: none;
-}
+
 /*page contact*/
 #bloc-6 > div > div > article > h1 {
 	color: #000000 !important;
@@ -1199,13 +1203,14 @@ h1 {
 #form_1 > button {
 	color: #200 !important;
 }
-@media screen and (max-width: 700px){
-	#bloc-8 > div > div > div > div{
+@media screen and (max-width: 700px) {
+	#bloc-8 > div > div > div > div {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 	}
-	#bloc-8 > div > div > div > div > div:nth-child(3) > div > a > i{
-	margin: 0;
-}	}
+	#bloc-8 > div > div > div > div > div:nth-child(3) > div > a > i {
+		margin: 0;
+	}
+}
 /*elements optimisés-------------------------------------------------------------end*/
